@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    tools:context=".control">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="329dp"
+        android:layout_height="413dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/transparente_redondo"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.809">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="bottom"
+                    android:paddingLeft="5sp"
+                    android:text="luz sala"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="on"
+                    android:textColor="#05AA4A" />
+
+                <Button
+                    android:id="@+id/btnOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="off"
+                    android:textColor="#9E0202" />
+
+                <TextView
+                    android:id="@+id/textestadosala"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center|center_vertical"
+                    android:text="estado"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:paddingLeft="5sp"
+                    android:text="luz monito"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnOncomedor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="on"
+                    android:textColor="#05AA4A" />
+
+                <Button
+                    android:id="@+id/btnOffcomedor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="off"
+                    android:textColor="#9E0202" />
+
+                <TextView
+                    android:id="@+id/textestadocomedor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="estado"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:paddingLeft="5sp"
+                    android:text="televisor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnOndormi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="on"
+                    android:textColor="#05AA4A" />
+
+                <Button
+                    android:id="@+id/btnOffdormi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="off"
+                    android:textColor="#9E0202" />
+
+                <TextView
+                    android:id="@+id/textestadoDormitorio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="estado"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:paddingLeft="5sp"
+                    android:text="ventilador"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnOnlavanderia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="on"
+                    android:textColor="#05AA4A" />
+
+                <Button
+                    android:id="@+id/btnOfflavanderia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="off"
+                    android:textColor="#9E0202" />
+
+                <TextView
+                    android:id="@+id/textestadolavanderia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="estado"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:paddingLeft="5sp"
+                    android:text="patio"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnOnpatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="on"
+                    android:textColor="#05AA4A" />
+
+                <Button
+                    android:id="@+id/btnOffpatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:text="off"
+                    android:textColor="#9E0202" />
+
+                <TextView
+                    android:id="@+id/textestadopatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="estado"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="206dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="87dp" />
+
+    <Button
+        android:id="@+id/btncerrar"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:text="exit"
+        android:textColor="#DD2C00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/transparente_redondo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

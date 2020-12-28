@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Domotica</string>
+    <string name="facebook_app_id">1181007255610848</string>
+    <string name="fb_login_protocol_scheme">fb1181007255610848</string>
+
+
+    <string name="nombre">nombre</string>
+    <string name="guardar">guardar</string>
+
+
+    <string name="estado_switch">Estado Switch</string>
+    <string name="control_led">Conrol Led</string>
+
+</resources>
